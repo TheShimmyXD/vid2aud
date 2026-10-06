@@ -1,0 +1,4 @@
+# Dependencias para desarrollar (pruebas y formato), ademas de las de ejecucion.
+-r requirements.txt
+pytest>=8
+ruff>=0.6

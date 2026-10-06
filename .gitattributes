@@ -1,0 +1,6 @@
+# Finales de linea: los guiones de Windows con CRLF, el resto con LF.
+* text=auto
+*.bat text eol=crlf
+*.sh text eol=lf
+*.ttf binary
+*.woff2 binary

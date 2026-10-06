@@ -1,0 +1,13 @@
+Input #0, matroska,webm, from 'clip_flac51.mkv':
+  Metadata:
+    ENCODER         : Lavf61.1.100
+  Duration: 00:00:08.00, start: 0.000000, bitrate: 2382 kb/s
+  Stream #0:0: Video: h264 (Constrained Baseline), yuv420p(progressive), 640x360 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 1k tbn
+      Metadata:
+        ENCODER         : Lavc61.3.100 libx264
+        DURATION        : 00:00:08.000000000
+  Stream #0:1: Audio: flac, 44100 Hz, 5.1, s16
+      Metadata:
+        ENCODER         : Lavc61.3.100 flac
+        DURATION        : 00:00:08.000000000
+At least one output file must be specified

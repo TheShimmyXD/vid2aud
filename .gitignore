@@ -1,0 +1,35 @@
+# -- Python ----------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# -- Empaquetado -----------------------------------------------
+build/
+dist/
+*.spec
+
+# -- Editores y sistema ----------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# -- Datos sensibles (nunca se suben) --------------------------
+resources/json/secure_credentials.json
+resources/json/local_settings.json
+.env
+*.pem
+*.key
+
+# -- Datos que genera la app en cada maquina -------------------
+resources/logs/*
+!resources/logs/.gitkeep
+resources/json/app_settings.json
+resources/json/*_cache.json
+*.log
+*.part
